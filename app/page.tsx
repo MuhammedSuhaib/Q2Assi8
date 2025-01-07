@@ -33,9 +33,8 @@ export default async function Home() {
     mainImage3,
     publishedAt
   }`);
-  console.log(data);
-
-  return (
+  
+return (
     <div className="p-6 bg-green-50 ">
       <div className="grid gap-4 mt-4">
         {data.map((blog) => (
